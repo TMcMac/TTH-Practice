@@ -1,0 +1,23 @@
+Lists in python
+      New list is created with brackers []
+      "" is a string literal
+      Newlist["Python", "JavaScript", "C"]
+      You can create a list with list()
+      	  for example: newlist = list("Hello")
+	      result is newlist = ['H', 'e', 'l', 'l', 'o']
+      List are mutable
+      you can add to the end of the list with .append("The thing to be added")
+      you can add to the front of the list with .insert(0, " ")
+      you can add the contents of another list to you list with .extend(other_list)
+      .pop() will take last item off the list and return it to you so you can have it in a var (LIFO), you can also use an index in pop.
+      .copy will copy the list to your new list
+      .split() can be called on a string to make it into a list
+      turn a list into a string with .join()
+
+Tuples
+	tuples are immutable
+	Best for set data, no need to change, iterate, and known size
+	Use tuples for heterogeneous data and lists for homogeneous data
+	Use tuples for faster and more efficient access
+	
+      
